@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Przepisy | Wypieki Crushonki</title>
+
+    <meta
+        name="description"
+        content="Wszystkie przepisy Wypieków Crushonki – ciasta, babeczki, ciasteczka, drożdżówki, obiady na słodko i wytrawne."
+    >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Lato:wght@400;500;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body>
+
+    <header class="header">
+        <a href="index.html" class="logo">
+            <img src="img/logo.png" alt="Wypieki Crushonki">
+        </a>
+
+        <nav class="navigation">
+    <a href="index.html">Strona główna</a>
+    <a href="przepisy.html">Przepisy</a>
+    <a href="https://www.instagram.com/crushonka/" target="_blank" rel="noopener noreferrer">
+        Instagram
+    </a>
+</nav>
+
+        <button class="search-button" aria-label="Otwórz wyszukiwarkę">
+            Szukaj
+        </button>
+
+    </header>
+
+
+    <main>
+
+        <!-- NAGŁÓWEK STRONY -->
+        <section class="recipes-page-header">
+
+            <p class="recipes-page-eyebrow">
+                Wypieki Crushonki
+            </p>
+
+            <h1>Wszystkie przepisy</h1>
+
+            <p class="recipes-page-intro">
+                Znajdź coś dobrego do upieczenia.
+                Sprawdzone przepisy na spokojne chwile w kuchni.
+            </p>
+
+        </section>
+
+
+        <!-- KATEGORIE -->
+        <section class="categories recipes-categories">
+
+    <a href="?kategoria=ciasta">Ciasta</a>
+    <a href="?kategoria=babeczki">Babeczki</a>
+    <a href="?kategoria=ciasteczka">Ciasteczka</a>
+    <a href="?kategoria=drozdzowki">Drożdżówki</a>
+    <a href="?kategoria=obiady-na-slodko">Obiady na słodko</a>
+    <a href="?kategoria=wytrawne">Wytrawne</a>
+
+</section>
+
+<section class="recipes-search">
+
+    <form class="search-form" id="recipes-search-form">
+
+        <input
+            type="search"
+            id="recipes-search-input"
+            placeholder="Szukaj przepisu..."
+            aria-label="Szukaj przepisu"
+        >
+
+        <button type="submit">
+            Szukaj
+        </button>
+
+    </form>
+
+</section>
+        <!-- LISTA PRZEPISÓW -->
+        <section class="recipes recipes-page-list">
+
+            <div class="section-heading">
+                <h2>Przepisy</h2>
+            </div>
+
+
+            <div class="recipe-grid">
+
+                <article
+    class="recipe-card"
+    data-category="ciasteczka"
+    data-search="ciasteczka borówkowe borówki biała czekolada ciasteczka"
+>
+
+                    <img
+                        src="img/przepisy/ciasteczka-borowkowe.jpg"
+                        alt="Ciasteczka borówkowe z białą czekoladą"
+                    >
+
+                    <div class="recipe-card-content">
+
+                        <h3>Ciasteczka borówkowe</h3>
+
+                        <p>
+                            Miękkie ciasteczka z borówkami i kawałkami
+                            białej czekolady.
+                        </p>
+
+                        <div class="recipe-info">
+                            <span>ok. 16 sztuk</span>
+                            <span class="separator">·</span>
+                            <span>10–15 min pieczenia</span>
+                        </div>
+
+                        <a href="przepisy/ciasteczka-borowkowe.html">
+                            Przejdź do przepisu →
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- STOPKA -->
+    <footer class="footer">
+
+        <strong>Wypieki Crushonki</strong>
+
+       <a href="https://www.instagram.com/crushonka/"
+   target="_blank"
+   rel="noopener noreferrer">
+    Instagram
+</a>
+        <p>© 2026 Wypieki Crushonki</p>
+
+    </footer>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

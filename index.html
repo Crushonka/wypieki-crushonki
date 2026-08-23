@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Wypieki Crushonki</title>
+
+    <meta 
+        name="description" 
+        content="Wypieki Crushonki – sprawdzone przepisy na domowe ciasta, babeczki, ciasteczka, drożdżówki i inne słodkości."
+    >
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Lato:wght@400;500;700&display=swap"
+    rel="stylesheet"
+>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- NAGŁÓWEK -->
+    <header class="header">
+
+        <a href="index.html" class="logo">
+            <img src="img/logo.png" alt="Wypieki Crushonki">
+        </a>
+
+       <nav class="navigation">
+    <a href="index.html">Strona główna</a>
+    <a href="przepisy.html">Przepisy</a>
+    <a href="https://www.instagram.com/crushonka/" target="_blank" rel="noopener noreferrer">
+        Instagram
+    </a>
+</nav>
+
+        <button
+    class="search-button"
+    id="header-search-button"
+    type="button"
+    aria-label="Przejdź do wyszukiwarki"
+>
+    Szukaj
+</button>
+
+    </header>
+
+
+    <!-- HERO -->
+    <main>
+
+       <section class="hero">
+
+    <img 
+        src="img/hero.jpg" 
+        alt="Przytulna kuchnia podczas przygotowywania wypieków"
+        class="hero-image"
+    >
+
+    <div class="hero-content">
+
+        <h1>
+            Dom pachnie najlepiej<br>
+            świeżo upieczonym ciastem.
+        </h1>
+
+        <form class="search-form" id="recipe-search-form">
+
+    <input
+        type="search"
+        id="recipe-search"
+        placeholder="Szukaj przepisu..."
+        aria-label="Szukaj przepisu"
+    >
+
+    <button type="submit">
+        Szukaj
+    </button>
+
+</form>
+
+
+    </div>
+
+</section>
+<!-- KATEGORIE -->
+<section class="categories">
+
+    <a href="przepisy.html?kategoria=ciasta">Ciasta</a>
+    <a href="przepisy.html?kategoria=babeczki">Babeczki</a>
+    <a href="przepisy.html?kategoria=ciasteczka">Ciasteczka</a>
+    <a href="przepisy.html?kategoria=drozdzowki">Drożdżówki</a>
+    <a href="przepisy.html?kategoria=obiady-na-slodko">Obiady na słodko</a>
+    <a href="przepisy.html?kategoria=wytrawne">Wytrawne</a>
+
+</section>
+
+        <!-- NAJNOWSZE PRZEPISY -->
+        <section class="recipes">
+
+            <div class="section-heading">
+                <h2>Najnowsze przepisy</h2>
+                <a href="przepisy.html">Zobacz wszystkie przepisy →</a>
+            </div>
+
+
+            <div class="recipe-grid">
+
+
+                <!-- PRZEPIS 1 -->
+<article class="recipe-card">
+
+    <img 
+        src="img/przepisy/ciasteczka-borowkowe.jpg" 
+        alt="Ciasteczka borówkowe z białą czekoladą"
+    >
+
+    <div class="recipe-card-content">
+
+        <h3>Ciasteczka borówkowe</h3>
+
+        <p>
+            Miękkie ciasteczka z borówkami i kawałkami
+            białej czekolady.
+        </p>
+
+        <div class="recipe-info">
+            <span>ok. 16 sztuk</span>
+            <span class="separator">·</span>
+            <span>10–15 min pieczenia</span>
+        </div>
+
+        <a href="przepisy/ciasteczka-borowkowe.html">
+            Przejdź do przepisu →
+        </a>
+
+    </div>
+
+</article>
+  </div>
+        </section>
+
+
+        <!-- O MNIE -->
+        <section class="about">
+
+            <div class="about-image">
+                <img 
+                    src="img/o-mnie.jpg" 
+                    alt="Książka z przepisami i filiżanka kawy"
+                >
+            </div>
+
+            <div class="about-content">
+
+                <h2>O mnie</h2>
+
+                <p>
+                    Cześć! Mam na imię Ola. Uwielbiam piec i dzielić się sprawdzonymi
+                    przepisami, które przygotowuję dla rodziny i przyjaciół.
+                </p>
+
+                <p>
+                    Każdy wypiek znajdujący się na blogu został
+                    dokładnie przeze mnie dopieszczony.
+                </p>
+
+                <p>
+                    Mam nadzieję, że znajdziesz tutaj inspirację
+                    i będziesz wracać po więcej.
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- STOPKA -->
+    <footer class="footer">
+
+        <strong>Wypieki Crushonki</strong>
+
+        <a href="https://www.instagram.com/crushonka/"
+   target="_blank"
+   rel="noopener noreferrer">
+    Instagram
+</a>
+
+        <p>© 2026 Wypieki Crushonki</p>
+
+    </footer>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
