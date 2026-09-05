@@ -445,7 +445,9 @@ input {
     justify-content: center;
     gap: 65px;
 }
-
+.recipe-card {
+    margin-bottom: 35px;
+}
 
 /* Karta */
 
@@ -541,7 +543,9 @@ input {
     color: var(--brown);
     transform: translateX(3px);
 }
-
+.recipe-card {
+    margin-bottom: 35px;
+}
 
 
 /* -----------------------------------------------------
@@ -1386,4 +1390,6 @@ input {
         text-align: center;
     }
 
+}.recipe-grid {
+    row-gap: 35px 
 }
