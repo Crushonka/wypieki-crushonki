@@ -909,9 +909,12 @@ input {
 
     color: var(--brown-light);
 
-    font-size: 13px;
+    font-size: 15px;
 }
 
+.recipe-meta.recipe-meta-large {
+    font-size: 17px;
+}
 
 .recipe-meta span:nth-child(even) {
     color: var(--green);
@@ -926,10 +929,11 @@ input {
 
 
 .recipe-main-image img {
+    max-width: 800px;
     width: 100%;
     height: auto;
-
     display: block;
+    margin: 0 auto;
 }
 
 
