@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <link rel="icon" type="image/png" href="../img/favicon2.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <title>Tarteletki z orzechami laskowymi i frużeliną malinową | Wypieki Crushonki</title>
+
+<meta
+    name="description"
+    content="Połączenie końca lata z początkiem jesieni."
+>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Lato:wght@400;500;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+
+<body>
+
+    <!-- NAGŁÓWEK -->
+    <header class="header">
+
+        <a href="../index.html" class="logo">
+            <img src="../img/logo.png" alt="Wypieki Crushonki">
+        </a>
+
+       <nav class="navigation">
+    <a href="../index.html">Strona główna</a>
+    <a href="../przepisy.html">Przepisy</a>
+    <a href="https://www.instagram.com/crushonka/" target="_blank" rel="noopener noreferrer">
+        Instagram
+    </a>
+</nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- PRZEPIS -->
+        <article class="single-recipe">
+
+    <header class="recipe-header">
+
+        <p class="recipe-category">
+            Ciasteczka
+        </p>
+
+        <h1>Tartaletki z orzechami laskowymi i malinami
+
+        <p class="recipe-lead" style="font-size: 1.3rem; margin-top: 25px;">
+            Połączenie smaku lata i jesieni.
+        </p>
+
+        <div class="recipe-meta" style="font-size: 20px;">
+    <span>180°C</span>
+    <span>·</span>
+    <span>17–20 min pieczenia</span>
+    <span>·</span>
+    <span>18 sztuk</span>
+</div>
+
+    </header>
+
+    <div class="recipe-main-image">
+
+        <img
+            src="../img/przepisy/tartaletki-z-orzechami-laskowymi-i-fruzelina-malinowa.jpg"
+            alt="Tartaletki z orzechami laskowymi i frużeliną malinową"
+        >
+
+    </div>
+
+    <div class="recipe-body">
+
+        <section class="ingredients">
+
+            <h2>Składniki</h2>
+
+            <h3>Kruche</h3>
+
+            <ul>
+                <li>300 g mąki pszennej</li>
+                <li>150 g zimnego masła</li>
+                <li>2 żółtka</li>
+                <li>Szczypta soli</li>
+                <li>60 g cukru</li>
+                <li>2-3 łyżki ceremonialnego kakao</li>
+            </ul>
+
+            <h3>Nadzienie orzechowe</h3>
+
+            <ul>
+                <li>200 g podprażonych orzechów laskowych</li>
+                <li>80 ml śmietany kremówki</li>
+                <li>2 łyżki miodu</li>
+                <li>40 ml rumu</li>
+            </ul>
+
+            <h3>Malinowa frużelina</h3>
+
+            <ul>
+                <li>500 g malin</li>
+                <li>90 g cukru</li>
+                <li>15 ml soku z cytryny</li>
+                <li>1 płaska łyżka skrobi ziemniaczanej+ 25 ml zimnej wody</li>
+                <li>1 płaska łyżeczka żelatyny+ 15 ml zimnej wody</li>
+            </ul>
+
+        </section>
+
+        <section class="instructions">
+
+            <h2>Przygotowanie</h2>
+
+            <ol>
+
+                <li>
+                    Mąkę przesiać, dodać zimne masło i posiekać nożem do połączenia.
+                    Dodać żółtka, cukier, sól oraz starte kakao. 
+                    Szybko zagnieść, owinąć folią i schłodzić w lodówce przez ok. 1 godzinę. 
+                </li>
+
+                <li>
+                    Podprażone i wystudzone orzechy laskowe otrzeć w dłoniach ze skórki, 
+                    zmielić lub zblendować, wymieszać ze śmietaną, miodem oraz rumem. 
+                    Przykryć folią i schłodzić w lodówce.
+                </li>
+
+                <li>
+                    Maliny podgrzać w rondelki z cukrem i sokiem z cytryny. 
+                    Przetrzeć jeszcze ciepłe przez drobne sito, aby pozbyć się pestek.
+                    Powstały mus podgrzać. Skrobię wymieszać z zimną wodą,
+                    dodać do malin i mieszać 30-60 sekund do zgęstnienia. 
+                    Mus zdjąć z ognia. Żelatynę wymieszać z zimną wodą i po chwili dodać do musu.
+                    Wymieszać dokładnie i wystudzić, a następnie schłodzić w lodówce.
+                </li>
+
+                <li>
+                    Schłodzone ciasto rozwałkować do ok. 3 mm,
+                    wykrawać koła szklanką i wykładać je na posmarowaną masłem i wysypaną mąką formę do muffinek.
+                    Do tak przygotowanych tartaletek nakładać orzechowe nadzienie (około 1 pełna łyżeczka).
+                    Całość owinąć folią i włożyć na około 20 minut do lodówki. 
+                    W tym czasie rozgrzewać piekarnik do 180 stopni (tryb góra-dół).
+                     Po schłodzeniu tartaletek, włożyć je do piekarnika na 17-20 minut.
+                </li>
+
+                <li>
+                    Upieczone tartaletki pozostawić w formie do momentu jej wystygnięcia,
+                    następnie wyciągnąć je i studzić na kratce lub talerzu.
+                    Gdy całkowicie wystygną można delikatnie wyjmować nadzienie łyżeczką,
+                    na jego miejsce dawać około 1 łyżeczkę frużeliny, 
+                    a następnie kłaść na nią podpieczone nadzienie. 
+                    Tak przygotowane tartaletki przechowywać w lodówce, w szczelnie zamkniętym pojemniku.
+                </li>
+
+            </ol>
+
+        </section>
+
+    </div>
+
+</article>
+
+<div class="back-to-recipes">
+    <a href="../przepisy.html">
+        ← Wróć do wszystkich przepisów
+    </a>
+</div>
+
+</article>
+
+<div class="back-to-recipes">
+    <a href="../przepisy.html">
+        ← Wróć do wszystkich przepisów
+    </a>
+</div>
+
+
+    </main>
+
+
+    <!-- STOPKA -->
+    <footer class="footer">
+
+        <strong>Wypieki Crushonki</strong>
+
+        <a href="https://www.instagram.com/crushonka/"
+   target="_blank"
+   rel="noopener noreferrer">
+    Instagram
+</a>
+
+        <p>© 2026 Wypieki Crushonki</p>
+
+    </footer>
+
+</body>
+
+</html>
